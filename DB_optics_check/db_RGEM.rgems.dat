@@ -58,9 +58,9 @@ RGEM.rgems.xp.res = 400e-6
 RGEM.rgems.x1.partner = y1
 RGEM.rgems.x1.type = x
 RGEM.rgems.x1.nstrips = 512
-RGEM.rgems.x1.position = 0.0 0.0 0.0
+RGEM.rgems.x1.position = 0.0 0.0 0.9
 RGEM.rgems.x1.size     = 0.1 0.2 0.001
-RGEM.rgems.x1.strip.pos = -0.1
+RGEM.rgems.x1.strip.pos = -0.11
 RGEM.rgems.x1.maxsamp = 3
 RGEM.rgems.x1.do_noise = 1
 
@@ -86,17 +86,19 @@ RGEM.rgems.y1.chanmap = \
 RGEM.rgems.y1.nstrips = 256
 RGEM.rgems.y1.type = y
 RGEM.rgems.y1.partner = x1
-RGEM.rgems.y1.position = 0.0 0.0 0.0
+RGEM.rgems.y1.position = 0.0 0.0 0.9
 RGEM.rgems.y1.size     = 0.1 0.2 0.001
 RGEM.rgems.y1.strip.pos = -0.05
 RGEM.rgems.y1.maxsamp = 3
 RGEM.rgems.y1.do_noise = 1
 
 RGEM.rgems.x2.partner = y2
-RGEM.rgems.x2.position = -6.60e-4 4.25e-4 0.6858
+RGEM.rgems.x2.position = -6.60e-4 4.25e-4 1.5982485
+#RGEM.rgems.x2.position = -6.60e-4 4.25e-4 0.6858
 RGEM.rgems.x2.size     = 0.1 0.2 0.001
 RGEM.rgems.x2.nstrips = 512
-RGEM.rgems.x2.strip.pos = -0.1
+RGEM.rgems.x2.strip.pos = -0.105
+#RGEM.rgems.x2.strip.pos = -0.1
 RGEM.rgems.x2.type = x
 RGEM.rgems.x2.maxsamp = 3
 RGEM.rgems.x2.do_noise = 1
@@ -112,10 +114,12 @@ RGEM.rgems.x2.chanmap = \
 
 RGEM.rgems.y2.partner = x2
 RGEM.rgems.y2.type = y
-RGEM.rgems.y2.position = -6.60e-4 4.25e-4 0.6858
+RGEM.rgems.y2.position = -6.60e-4 4.25e-4 1.5982485
+#RGEM.rgems.y2.position = -6.60e-4 4.25e-4 0.6858
 RGEM.rgems.y2.size     = 0.1 0.2 0.001
 RGEM.rgems.y2.nstrips = 256
-RGEM.rgems.y2.strip.pos = -0.05
+RGEM.rgems.y2.strip.pos = -0.04676425
+#RGEM.rgems.y2.strip.pos = -0.05
 RGEM.rgems.y2.maxsamp = 3
 RGEM.rgems.y2.do_noise = 1
 
@@ -129,10 +133,12 @@ RGEM.rgems.y2.chanmap = \
 
 RGEM.rgems.x3.partner = y3
 RGEM.rgems.x3.type = x
-RGEM.rgems.x3.position = 0.0e-6 0.0e-4 0.889
+RGEM.rgems.x3.position = 0.0e-6 0.0e-4 1.8558464
+#RGEM.rgems.x3.position = 0.0e-6 0.0e-4 0.889
 RGEM.rgems.x3.size     = 0.1 0.2 0.001
 RGEM.rgems.x3.nstrip = 512
-RGEM.rgems.x3.strip.pos = -0.1
+RGEM.rgems.x3.strip.pos = -0.1028115
+#RGEM.rgems.x3.strip.pos = -0.1
 RGEM.rgems.x3.maxsamp = 3
 RGEM.rgems.x3.do_noise = 1
 
@@ -147,10 +153,12 @@ RGEM.rgems.x3.chanmap = \
 
 RGEM.rgems.y3.partner = x3
 RGEM.rgems.y3.type = y
-RGEM.rgems.y3.position = 0.0e-6 0.0e-4 0.889
+RGEM.rgems.y3.position = 0.0e-6 0.0e-4 1.8558464
+#RGEM.rgems.y3.position = 0.0e-6 0.0e-4 0.889
 RGEM.rgems.y3.size     = 0.1 0.2 0.001
 RGEM.rgems.y3.nstrip = 256
-RGEM.rgems.y3.strip.pos = -0.05
+#RGEM.rgems.y3.strip.pos = -0.05
+RGEM.rgems.y3.strip.pos = -0.046407
 RGEM.rgems.y3.maxsamp = 3
 RGEM.rgems.y3.do_noise = 1
 
@@ -164,10 +172,13 @@ RGEM.rgems.y3.chanmap = \
 
 RGEM.rgems.x4.partner = y4
 RGEM.rgems.x4.type = x
-RGEM.rgems.x4.position = -1.49e-3 5.2e-4 1.104
+RGEM.rgems.x4.position = -1.49e-3 5.2e-4 2.3839658
+#RGEM.rgems.x4.position = -1.49e-3 5.2e-4 1.104
 RGEM.rgems.x4.size     = 0.1 0.2 0.001
 RGEM.rgems.x4.nstrip = 1536
-RGEM.rgems.x4.strip.pos = -0.3
+# start position for for the first strip
+RGEM.rgems.x4.strip.pos = -0.45477553
+#RGEM.rgems.x4.strip.pos = -0.3
 RGEM.rgems.x4.maxsamp = 3
 RGEM.rgems.x4.do_noise = 1
 
@@ -191,10 +202,12 @@ RGEM.rgems.x4.chanmap = \
 
 RGEM.rgems.y4.partner = x4
 RGEM.rgems.y4.type = y
-RGEM.rgems.y4.position = -1.49e-3 5.2e-4 1.104
+RGEM.rgems.y4.position = -1.49e-3 5.2e-4 2.3839658
+#RGEM.rgems.y4.position = -1.49e-3 5.2e-4 1.104
 RGEM.rgems.y4.size     = 0.1 0.2 0.001
 RGEM.rgems.y4.nstrip = 1280
-RGEM.rgems.y4.strip.pos = -0.25
+RGEM.rgems.y4.strip.pos = -0.29914530
+#RGEM.rgems.y4.strip.pos = -0.25
 RGEM.rgems.y4.maxsamp = 3
 RGEM.rgems.y4.do_noise = 1
 
@@ -228,10 +241,12 @@ RGEM.rgems.y4.chanmap = \
 
 RGEM.rgems.x5.partner = y5
 RGEM.rgems.x5.type = x
-RGEM.rgems.x5.position = -1.49e-3 5.2e-4 1.180
+RGEM.rgems.x5.position = -1.49e-3 5.2e-4 2.5141378
+#RGEM.rgems.x5.position = -1.49e-3 5.2e-4 1.180
 RGEM.rgems.x5.size     = 0.1 0.2 0.001
 RGEM.rgems.x5.nstrip = 1536
-RGEM.rgems.x5.strip.pos = -0.3
+RGEM.rgems.x5.strip.pos = -0.45597242
+#RGEM.rgems.x5.strip.pos = -0.3
 RGEM.rgems.x5.maxsamp = 3
 RGEM.rgems.x5.do_noise = 1
 
@@ -255,10 +270,12 @@ RGEM.rgems.x5.chanmap = \
 
 RGEM.rgems.y5.partner = x5
 RGEM.rgems.y5.type = y
-RGEM.rgems.y5.position = -1.49e-3 5.2e-4 1.180
+RGEM.rgems.y5.position = -1.49e-3 5.2e-4 2.5141378
+#RGEM.rgems.y5.position = -1.49e-3 5.2e-4 1.180
 RGEM.rgems.y5.size     = 0.1 0.2 0.001
 RGEM.rgems.y5.nstrip = 1280
-RGEM.rgems.y5.strip.pos = -0.25
+RGEM.rgems.y5.strip.pos = -0.28151645
+#RGEM.rgems.y5.strip.pos = -0.25
 RGEM.rgems.y5.maxsamp = 3
 RGEM.rgems.y5.do_noise = 1
 
@@ -280,10 +297,12 @@ RGEM.rgems.y5.chanmap = \
 
 RGEM.rgems.x6.partner = y6
 RGEM.rgems.x6.type = x
-RGEM.rgems.x6.position = -1.49e-3 5.2e-4 1.256
+RGEM.rgems.x6.position = -1.49e-3 5.2e-4 2.6395974
+#RGEM.rgems.x6.position = -1.49e-3 5.2e-4 1.256
 RGEM.rgems.x6.size     = 0.1 0.2 0.001
 RGEM.rgems.x6.nstrip = 1536
-RGEM.rgems.x6.strip.pos = -0.30
+RGEM.rgems.x6.strip.pos = -0.45629362
+#RGEM.rgems.x6.strip.pos = -0.30
 RGEM.rgems.x6.maxsamp = 3
 RGEM.rgems.x6.do_noise = 1
 
@@ -307,10 +326,12 @@ RGEM.rgems.x6.chanmap = \
 
 RGEM.rgems.y6.partner = x6
 RGEM.rgems.y6.type = y
-RGEM.rgems.y6.position = -1.49e-3 5.2e-4 1.256
+RGEM.rgems.y6.position = -1.49e-3 5.2e-4 2.6395974
+#RGEM.rgems.y6.position = -1.49e-3 5.2e-4 1.256
 RGEM.rgems.y6.size     = 0.1 0.2 0.001
 RGEM.rgems.y6.nstrip = 1280
-RGEM.rgems.y6.strip.pos = -0.25
+RGEM.rgems.y6.strip.pos = -0.28434169
+#RGEM.rgems.y6.strip.pos = -0.25
 RGEM.rgems.y6.maxsamp = 3
 RGEM.rgems.y6.do_noise = 1
 
