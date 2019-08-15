@@ -28,32 +28,33 @@ RGEM.rgems.x.angle = 0
 RGEM.rgems.y.angle = 90
 
 RGEM.rgems.do_eltracksel = 0
-RGEM.rgems.maxthreads = 1
+RGEM.rgems.maxthreads = 5
 RGEM.rgems.disable_tracking = 0
 RGEM.rgems.disable_finetrack = 1
-RGEM.rgems.3d_disable_chi2 = 0
-RGEM.rgems.3d_ampcorr_maxmiss = 0
-RGEM.rgems.3d_ampcorr_nsigma = 2
-RGEM.rgems.3d_ampcorr_minADC = 50
+RGEM.rgems.3d_disable_chi2 = 1
+RGEM.rgems.3d_ampcorr_maxmiss = 3
+RGEM.rgems.3d_ampcorr_nsigma = 5
+RGEM.rgems.3d_ampcorr_minADC = 10
 RGEM.rgems.3d_chi2_conflevel = 1e-06
-RGEM.rgems.3d_maxmiss = 0
+RGEM.rgems.3d_maxmiss = 3
 
-RGEM.rgems.x.search_depth = 8
-RGEM.rgems.y.search_depth = 8
+RGEM.rgems.x.search_depth = 3
+RGEM.rgems.y.search_depth = 3
+
 #RGEM.rgems.planeconfig = x4 y4 x5 y5 x6 y6
 #RGEM.rgems.planeconfig = x1 y1 x2 y2 x3 y3
 RGEM.rgems.planeconfig = x1 y1 x2 y2 x3 y3 x4 y4 x5 y5 x6 y6
 # RGEM.rgems.calibrate = x4 x5 x6
 RGEM.rgems.mapping = mpd-apv-nossp
 RGEM.rgems.strip.pitch = 0.000400
-RGEM.rgems.maxmiss = 0
-RGEM.rgems.maxclustsiz = 15
+RGEM.rgems.maxmiss = 3
+RGEM.rgems.maxclustsiz = 30
 RGEM.rgems.split.frac = 0.1
-RGEM.rgems.minPeakADC = 100
-RGEM.rgems.adc.min = 50
+RGEM.rgems.minPeakADC = 10
+RGEM.rgems.adc.min = 10
 RGEM.rgems.maxpat= 10000
 RGEM.rgems.check_pulse_shape= 0
-RGEM.rgems.disable_chi2 = 0
+RGEM.rgems.disable_chi2 = 1
 
 RGEM.rgems.xp.res = 400e-6
 
