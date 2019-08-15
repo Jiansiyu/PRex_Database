@@ -33,13 +33,13 @@ RGEM.rgems.disable_tracking = 0
 RGEM.rgems.disable_finetrack = 1
 RGEM.rgems.3d_disable_chi2 = 0
 RGEM.rgems.3d_ampcorr_maxmiss = 0
-RGEM.rgems.3d_ampcorr_nsigma = 1
+RGEM.rgems.3d_ampcorr_nsigma = 2
 RGEM.rgems.3d_ampcorr_minADC = 50
 RGEM.rgems.3d_chi2_conflevel = 1e-06
 RGEM.rgems.3d_maxmiss = 0
 
-RGEM.rgems.x.search_depth = 2
-RGEM.rgems.y.search_depth = 2
+RGEM.rgems.x.search_depth = 8
+RGEM.rgems.y.search_depth = 8
 #RGEM.rgems.planeconfig = x4 y4 x5 y5 x6 y6
 #RGEM.rgems.planeconfig = x1 y1 x2 y2 x3 y3
 RGEM.rgems.planeconfig = x1 y1 x2 y2 x3 y3 x4 y4 x5 y5 x6 y6
@@ -284,8 +284,7 @@ RGEM.rgems.y5.chanmap = \
 
 RGEM.rgems.x6.partner = y6
 RGEM.rgems.x6.type = x
-#RGEM.rgems.x6.position = -0.15629362 -0.034341390  2.6395974
-RGEM.rgems.x6.position = -0.14863770 -0.026461790 2.7366041
+RGEM.rgems.x6.position = -0.14863770 0.023461790 2.7366041
 RGEM.rgems.x6.size     = 0.6 0.5 0.001
 RGEM.rgems.x6.nstrip = 1536
 RGEM.rgems.x6.strip.pos = -0.3
@@ -312,8 +311,8 @@ RGEM.rgems.x6.chanmap = \
 
 RGEM.rgems.y6.partner = x6
 RGEM.rgems.y6.type = y
-#RGEM.rgems.y6.position = -0.15629362 -0.034341390 2.6395974
-RGEM.rgems.y6.position = -0.14863770 -0.026461790 2.7366041
+
+RGEM.rgems.y6.position = -0.14863770 0.023461790 2.7366041
 RGEM.rgems.y6.size     = 0.6 0.5 0.001
 RGEM.rgems.y6.nstrip = 1280
 RGEM.rgems.y6.strip.pos = -0.3
