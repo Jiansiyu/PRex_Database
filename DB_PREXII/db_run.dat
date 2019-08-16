@@ -1,12 +1,12 @@
-# For PREX data
+# For PREX II data
 
---------[ 2010-01-02 01:00:00 ]
+--------[ 2019-08-16 01:00:00 ]
 
 ebeam     = 0.95
-L.theta   = 5.007
-R.theta   = -4.910
-LGEM.theta   = 5.007
-RGEM.theta   = -4.910
+L.theta   = 4.74
+R.theta   = -4.74
+LGEM.theta   = 4.74
+RGEM.theta   = -4.74
 L.pcentral= 0.95
 R.pcentral= 0.95
 LGEM.pcentral= 0.95

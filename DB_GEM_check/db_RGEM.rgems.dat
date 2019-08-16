@@ -66,6 +66,8 @@ RGEM.rgems.x1.size     = 0.1 0.2 0.001
 RGEM.rgems.x1.strip.pos = -0.1
 RGEM.rgems.x1.maxsamp = 3
 RGEM.rgems.x1.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.x1.search_depth = 3
 
 RGEM.rgems.x1.detmap = \
 20 0 0 0 
@@ -85,7 +87,6 @@ RGEM.rgems.y1.chanmap = \
 20 0 9 0 4 24 1 1 \
 20 0 9 0 5 25 0 1
 
-#RGEM.rgems.x1.d0 = 0
 RGEM.rgems.y1.nstrips = 256
 RGEM.rgems.y1.type = y
 RGEM.rgems.y1.partner = x1
@@ -94,6 +95,8 @@ RGEM.rgems.y1.size     = 0.1 0.2 0.001
 RGEM.rgems.y1.strip.pos = -0.05
 RGEM.rgems.y1.maxsamp = 3
 RGEM.rgems.y1.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.y1.search_depth = 3
 
 RGEM.rgems.x2.partner = y2
 RGEM.rgems.x2.position = -7.8890000e-05 0.0077045100 1.5369800
@@ -103,6 +106,8 @@ RGEM.rgems.x2.strip.pos = -0.1
 RGEM.rgems.x2.type = x
 RGEM.rgems.x2.maxsamp = 3
 RGEM.rgems.x2.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.x2.search_depth = 3
 
 RGEM.rgems.x2.detmap = \
 20 0 0 0
@@ -121,6 +126,8 @@ RGEM.rgems.y2.nstrips = 256
 RGEM.rgems.y2.strip.pos = -0.05
 RGEM.rgems.y2.maxsamp = 3
 RGEM.rgems.y2.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.y2.search_depth = 3
 
 RGEM.rgems.y2.detmap = \
 20 0 0 0
@@ -133,11 +140,13 @@ RGEM.rgems.y2.chanmap = \
 RGEM.rgems.x3.partner = y3
 RGEM.rgems.x3.type = x
 RGEM.rgems.x3.position = 0.0039287200 0.010155170 1.8292131
-RGEM.rgems.x3.size     = 0.1 0.2 0.001
+RGEM.rgems.x3.size     = 0.1 0.2 0.001 
 RGEM.rgems.x3.nstrip = 512
 RGEM.rgems.x3.strip.pos = -0.1
 RGEM.rgems.x3.maxsamp = 3
 RGEM.rgems.x3.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.x3.search_depth = 3
 
 RGEM.rgems.x3.detmap = \
 20 0 0 0
@@ -156,6 +165,8 @@ RGEM.rgems.y3.nstrip = 256
 RGEM.rgems.y3.strip.pos = -0.05
 RGEM.rgems.y3.maxsamp = 3
 RGEM.rgems.y3.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.y3.search_depth = 3
 
 RGEM.rgems.y3.detmap = \
 20 0 0 0 
@@ -174,6 +185,8 @@ RGEM.rgems.x4.nstrip = 1536
 RGEM.rgems.x4.strip.pos = -0.3
 RGEM.rgems.x4.maxsamp = 3
 RGEM.rgems.x4.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.x4.search_depth = 6
 
 RGEM.rgems.x4.detmap = \
 20 0 0 0
@@ -201,6 +214,8 @@ RGEM.rgems.y4.nstrip = 1280
 RGEM.rgems.y4.strip.pos = -0.25
 RGEM.rgems.y4.maxsamp = 3
 RGEM.rgems.y4.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.y4.search_depth = 5
 
 RGEM.rgems.y4.detmap = \
 20 0 0 0
@@ -239,6 +254,8 @@ RGEM.rgems.x5.nstrip = 1536
 RGEM.rgems.x5.strip.pos = -0.3
 RGEM.rgems.x5.maxsamp = 3
 RGEM.rgems.x5.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.x5.search_depth = 6
 
 RGEM.rgems.x5.detmap = \
 20 0 0 0
@@ -266,6 +283,8 @@ RGEM.rgems.y5.nstrip = 1280
 RGEM.rgems.y5.strip.pos = -0.25
 RGEM.rgems.y5.maxsamp = 3
 RGEM.rgems.y5.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.y5.search_depth = 5
 
 RGEM.rgems.y5.detmap = \
 20 0 0 0
@@ -291,6 +310,8 @@ RGEM.rgems.x6.nstrip = 1536
 RGEM.rgems.x6.strip.pos = -0.3
 RGEM.rgems.x6.maxsamp = 3
 RGEM.rgems.x6.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.x6.search_depth = 6
 
 RGEM.rgems.x6.detmap = \
 20 0 0 0
@@ -319,6 +340,8 @@ RGEM.rgems.y6.nstrip = 1280
 RGEM.rgems.y6.strip.pos = -0.3
 RGEM.rgems.y6.maxsamp = 3
 RGEM.rgems.y6.do_noise = 1
+# set the treesearch depth for each individual plane, for test perpose 
+RGEM.rgems.y6.search_depth = 5
 
 RGEM.rgems.y6.detmap = \
 20 0 0 0
