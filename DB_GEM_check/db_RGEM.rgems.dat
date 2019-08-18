@@ -99,7 +99,7 @@ RGEM.rgems.y1.do_noise = 1
 RGEM.rgems.y1.search_depth = 3
 
 RGEM.rgems.x2.partner = y2
-RGEM.rgems.x2.position = 0.0083381790 0.014428740 1.5369800
+RGEM.rgems.x2.position = 0.0073464980 0.010175470 1.5369800
 RGEM.rgems.x2.size     = 0.1 0.2 0.001
 RGEM.rgems.x2.nstrips = 512
 RGEM.rgems.x2.strip.pos = -0.1
@@ -120,7 +120,7 @@ RGEM.rgems.x2.chanmap = \
 
 RGEM.rgems.y2.partner = x2
 RGEM.rgems.y2.type = y
-RGEM.rgems.y2.position = 0.0083381790 0.014428740 1.5369800
+RGEM.rgems.y2.position = 0.0073464980 0.010175470 1.5369800
 RGEM.rgems.y2.size     = 0.1 0.2 0.001
 RGEM.rgems.y2.nstrips = 256
 RGEM.rgems.y2.strip.pos = -0.05
@@ -139,7 +139,7 @@ RGEM.rgems.y2.chanmap = \
 
 RGEM.rgems.x3.partner = y3
 RGEM.rgems.x3.type = x
-RGEM.rgems.x3.position = 0.012345789 0.016879400 1.8292131
+RGEM.rgems.x3.position = 0.010798759 0.010400170 1.8292131
 RGEM.rgems.x3.size     = 0.1 0.2 0.001 
 RGEM.rgems.x3.nstrip = 512
 RGEM.rgems.x3.strip.pos = -0.1
@@ -159,7 +159,7 @@ RGEM.rgems.x3.chanmap = \
 
 RGEM.rgems.y3.partner = x3
 RGEM.rgems.y3.type = y
-RGEM.rgems.y3.position = 0.012345789 0.016879400 1.8292131
+RGEM.rgems.y3.position = 0.010798759 0.010400170 1.8292131
 RGEM.rgems.y3.size     = 0.1 0.2 0.001
 RGEM.rgems.y3.nstrip = 256
 RGEM.rgems.y3.strip.pos = -0.05
@@ -178,7 +178,7 @@ RGEM.rgems.y3.chanmap = \
 
 RGEM.rgems.x4.partner = y4
 RGEM.rgems.x4.type = x
-RGEM.rgems.x4.position = -0.14048630 -0.019127670 2.4555651
+RGEM.rgems.x4.position = -0.14209122 -0.029413470 2.4555651
 #RGEM.rgems.x4.position = -0.15477553  -0.031914530 2.3839658
 RGEM.rgems.x4.size     = 0.6 0.5 0.001
 RGEM.rgems.x4.nstrip = 1536
@@ -208,7 +208,7 @@ RGEM.rgems.x4.chanmap = \
 
 RGEM.rgems.y4.partner = x4
 RGEM.rgems.y4.type = y
-RGEM.rgems.y4.position = -0.14048630 -0.019127670 2.4555651
+RGEM.rgems.y4.position = -0.14209122 -0.029413470 2.4555651
 RGEM.rgems.y4.size     = 0.6 0.5 0.001
 RGEM.rgems.y4.nstrip = 1280
 RGEM.rgems.y4.strip.pos = -0.25
@@ -247,7 +247,7 @@ RGEM.rgems.y4.chanmap = \
 
 RGEM.rgems.x5.partner = y5
 RGEM.rgems.x5.type = x
-RGEM.rgems.x5.position =  -0.14059176 -0.017467420 2.6139137
+RGEM.rgems.x5.position =  -0.14241094 -0.028611320 2.6139137
 #RGEM.rgems.x5.position = -0.15597242  -0.031516450   2.5141378
 RGEM.rgems.x5.size     = 0.6 0.5 0.001
 RGEM.rgems.x5.nstrip = 1536
@@ -277,7 +277,7 @@ RGEM.rgems.x5.chanmap = \
 
 RGEM.rgems.y5.partner = x5
 RGEM.rgems.y5.type = y
-RGEM.rgems.y5.position = -0.14059176 -0.017467420 2.6139137
+RGEM.rgems.y5.position = -0.14241094 -0.028611320 2.6139137
 RGEM.rgems.y5.size     = 0.6 0.5 0.001
 RGEM.rgems.y5.nstrip = 1280
 RGEM.rgems.y5.strip.pos = -0.25
@@ -304,7 +304,7 @@ RGEM.rgems.y5.chanmap = \
 
 RGEM.rgems.x6.partner = y6
 RGEM.rgems.x6.type = x
-RGEM.rgems.x6.position = -0.14022063 0.030186020 2.7366041
+RGEM.rgems.x6.position = -0.14205999 0.018815120 2.7366041
 RGEM.rgems.x6.size     = 0.6 0.5 0.001
 RGEM.rgems.x6.nstrip = 1536
 RGEM.rgems.x6.strip.pos = -0.3
@@ -334,7 +334,7 @@ RGEM.rgems.x6.chanmap = \
 RGEM.rgems.y6.partner = x6
 RGEM.rgems.y6.type = y
 
-RGEM.rgems.y6.position = -0.14022063 0.030186020 2.7366041
+RGEM.rgems.y6.position = -0.14205999 0.018815120 2.7366041
 RGEM.rgems.y6.size     = 0.6 0.5 0.001
 RGEM.rgems.y6.nstrip = 1280
 RGEM.rgems.y6.strip.pos = -0.3
