@@ -28,31 +28,31 @@ LGEM.lgems.x.angle = 0
 LGEM.lgems.y.angle = 90
 
 LGEM.lgems.do_eltracksel = 0
-LGEM.lgems.maxthreads = 1
+LGEM.lgems.maxthreads = 5
 LGEM.lgems.disable_tracking = 0
 LGEM.lgems.disable_finetrack = 1
-LGEM.lgems.3d_disable_chi2 = 0
-LGEM.lgems.3d_ampcorr_maxmiss = 0
-LGEM.lgems.3d_ampcorr_nsigma = 1
-LGEM.lgems.3d_ampcorr_minADC = 50
+LGEM.lgems.3d_disable_chi2 = 1
+LGEM.lgems.3d_ampcorr_maxmiss = 3
+LGEM.lgems.3d_ampcorr_nsigma = 5
+LGEM.lgems.3d_ampcorr_minADC = 10
 LGEM.lgems.3d_chi2_conflevel = 1e-06
-LGEM.lgems.3d_maxmiss = 0
+LGEM.lgems.3d_maxmiss = 3
 
-LGEM.lgems.x.search_depth = 8
-LGEM.lgems.y.search_depth = 9
-LGEM.lgems.planeconfig = x1 y1 x2 y2 x3 y3 # x4 y4 x5 y5 x6 y6
+LGEM.lgems.x.search_depth = 3
+LGEM.lgems.y.search_depth = 3
+LGEM.lgems.planeconfig = x1 y1 x2 y2 x3 y3 x4 y4 x5 y5 x6 y6
 LGEM.lgems.mapping = mpd-apv-nossp
 LGEM.lgems.strip.pitch = 0.000400
-LGEM.lgems.maxmiss = 0
-LGEM.lgems.maxclustsiz = 15
+LGEM.lgems.maxmiss = 3
+LGEM.lgems.maxclustsiz = 30
 LGEM.lgems.split.frac = 0.1
-LGEM.lgems.minPeakADC = 100
-LGEM.lgems.adc.min = 50
+LGEM.lgems.minPeakADC = 10
+LGEM.lgems.adc.min = 10
 LGEM.lgems.maxpat= 10000
 LGEM.lgems.check_pulse_shape= 0
-LGEM.lgems.disable_chi2 = 0
+LGEM.lgems.disable_chi2 = 1
 
-LGEM.lgems.xp.res = 200e-6
+LGEM.lgems.xp.res = 400e-6
 
 LGEM.lgems.x1.partner = y1
 LGEM.lgems.x1.type = x
@@ -68,18 +68,18 @@ LGEM.lgems.x1.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.x1.chanmap = \
-31 0 8 0 0 16 0 0 \
-31 0 8 0 1 17 1 0 \
-31 0 8 0 2 18 2 0 \
-31 0 8 0 3 19 3 0
+31 0 8 1 0 16 0 0 \
+31 0 8 1 1 17 1 0 \
+31 0 8 1 2 18 2 0 \
+31 0 8 1 3 19 3 0
 
 LGEM.lgems.y1.detmap =  \
 31 0 0 0
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.y1.chanmap = \
-31 0 8 0 4 14 0 0 \
-31 0 8 0 5 15 1 0
+31 0 8 1 4 14 0 0 \
+31 0 8 1 5 15 1 0
 
 #LGEM.lgems.x1.d0 = 0
 LGEM.lgems.y1.nstrips = 256
@@ -104,10 +104,10 @@ LGEM.lgems.x2.detmap = \
 31 0 0 0
 
 LGEM.lgems.x2.chanmap = \
-31 0 8 1 8 8 0 0 \
-31 0 8 1 9 9 1 0 \
-31 0 8 1 10 10 2 0 \
-31 0 8 1 11 11 3 0
+31 0 8 2  8  8 0 0 \
+31 0 8 2  9  9 1 0 \
+31 0 8 2 10 10 2 0 \
+31 0 8 2 11 11 3 0
 
 LGEM.lgems.y2.partner = x2
 LGEM.lgems.y2.type = y
@@ -123,8 +123,8 @@ LGEM.lgems.y2.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.y2.chanmap = \
-31 0 8 1 12 6 0 0 \
-31 0 8 1 13 7 1 0
+31 0 8 2 12 6 0 0 \
+31 0 8 2 13 7 1 0
 
 LGEM.lgems.x3.partner = y3
 LGEM.lgems.x3.type = x
@@ -139,10 +139,10 @@ LGEM.lgems.x3.detmap = \
 31 0 0 0
 
 LGEM.lgems.x3.chanmap = \
-31 0 9 2 0 8 0 0 \
-31 0 9 2 1 9 1 0 \
-31 0 9 2 2 10 2 0 \
-31 0 9 2 3 11 3 0
+31 0 9 3 0  8 0 0 \
+31 0 9 3 1  9 1 0 \
+31 0 9 3 2 10 2 0 \
+31 0 9 3 3 11 3 0
 
 LGEM.lgems.y3.partner = x3
 LGEM.lgems.y3.type = y
@@ -158,8 +158,8 @@ LGEM.lgems.y3.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.y3.chanmap = \
-31 0 9 2 4 0 0 0 \
-31 0 9 2 5 1 1 0
+31 0 9 3 4 0 0 0 \
+31 0 9 3 5 1 1 0
 
 LGEM.lgems.x4.partner = y4
 LGEM.lgems.x4.type = x
@@ -175,18 +175,18 @@ LGEM.lgems.x4.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.x4.chanmap = \
-31 0 18 3  0 15  11 0 \
-31 0 18 3  1 14  10 0 \
-31 0 18 3  2 13  9  0 \
-31 0 18 3  3 12  8  0 \
-31 0 18 3  4 11  7  0 \
-31 0 18 3  5 10  6  0 \
-31 0 18 3  6  9  5  0 \
-31 0 18 3  7  8  4  0 \
-31 0 18 3  8  7  3  0 \
-31 0 18 3  9  6  2  0 \
-31 0 18 3 10  5  1  0 \
-31 0 18 3 11  4  0  0
+31 0 18 4  0 15  11 0 \
+31 0 18 4  1 14  10 0 \
+31 0 18 4  2 13  9  0 \
+31 0 18 4  3 12  8  0 \
+31 0 18 4  4 11  7  0 \
+31 0 18 4  5 10  6  0 \
+31 0 18 4  6  9  5  0 \
+31 0 18 4  7  8  4  0 \
+31 0 18 4  8  7  3  0 \
+31 0 18 4  9  6  2  0 \
+31 0 18 4 10  5  1  0 \
+31 0 18 4 11  4  0  0
 
 LGEM.lgems.y4.partner = x4
 LGEM.lgems.y4.type = y
@@ -202,16 +202,16 @@ LGEM.lgems.y4.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.y4.chanmap = \
-31 0 14 3 10 20 9 1 \
-31 0 14 3 11 19 8 1 \
-31 0 14 3 12 18 7 1 \
-31 0 14 3 13 17 6 1 \
-31 0 14 3 14 16 5 1 \
-31 0 15 3 14 16 4 0 \
-31 0 15 3 13 17 3 0 \
-31 0 15 3 12 18 2 0 \
-31 0 15 3 11 19 1 0 \
-31 0 15 3 10 20 0 0
+31 0 14 4 10 20 9 1 \
+31 0 14 4 11 19 8 1 \
+31 0 14 4 12 18 7 1 \
+31 0 14 4 13 17 6 1 \
+31 0 14 4 14 16 5 1 \
+31 0 15 4 14 16 4 0 \
+31 0 15 4 13 17 3 0 \
+31 0 15 4 12 18 2 0 \
+31 0 15 4 11 19 1 0 \
+31 0 15 4 10 20 0 0
 
 LGEM.lgems.x5.partner = y5
 LGEM.lgems.x5.type = x
@@ -227,18 +227,18 @@ LGEM.lgems.x5.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.x5.chanmap = \
-31 0 17 4  0 15  11 0 \
-31 0 17 4  1 14  10 0 \
-31 0 17 4  2 13  9  0 \
-31 0 17 4  3 12  8  0 \
-31 0 17 4  4 11  7  0 \
-31 0 17 4  5 10  6  0 \
-31 0 17 4  6  9  5  0 \
-31 0 17 4  7  8  4  0 \
-31 0 17 4  8  7  3  0 \
-31 0 17 4  9  6  2  0 \
-31 0 17 4 10  5  1  0 \
-31 0 17 4 11  4  0  0
+31 0 17 5  0 15  11 0 \
+31 0 17 5  1 14  10 0 \
+31 0 17 5  2 13  9  0 \
+31 0 17 5  3 12  8  0 \
+31 0 17 5  4 11  7  0 \
+31 0 17 5  5 10  6  0 \
+31 0 17 5  6  9  5  0 \
+31 0 17 5  7  8  4  0 \
+31 0 17 5  8  7  3  0 \
+31 0 17 5  9  6  2  0 \
+31 0 17 5 10  5  1  0 \
+31 0 17 5 11  4  0  0
 
 LGEM.lgems.y5.partner = x5
 LGEM.lgems.y5.type = y
@@ -254,16 +254,16 @@ LGEM.lgems.y5.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.y5.chanmap = \
-31 0 14 4 5 12 9 1 \
-31 0 14 4 6 11 8 1 \
-31 0 14 4 7 10 7 1 \
-31 0 14 4 8  9 6 1 \
-31 0 14 4 9  8 5 1 \
-31 0 15 4 9  8 4 0 \
-31 0 15 4 8  9 3 0 \
-31 0 15 4 7 10 2 0 \
-31 0 15 4 6 11 1 0 \
-31 0 15 4 5 12 0 0
+31 0 14 5 5 12 9 1 \
+31 0 14 5 6 11 8 1 \
+31 0 14 5 7 10 7 1 \
+31 0 14 5 8  9 6 1 \
+31 0 14 5 9  8 5 1 \
+31 0 15 5 9  8 4 0 \
+31 0 15 5 8  9 3 0 \
+31 0 15 5 7 10 2 0 \
+31 0 15 5 6 11 1 0 \
+31 0 15 5 5 12 0 0
 
 LGEM.lgems.x6.partner = y6
 LGEM.lgems.x6.type = x
@@ -279,18 +279,18 @@ LGEM.lgems.x6.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.x6.chanmap = \
-31 0 16 5  0 15  11 0 \
-31 0 16 5  1 14  10 0 \
-31 0 16 5  2 13  9  0 \
-31 0 16 5  3 12  8  0 \
-31 0 16 5  4 11  7  0 \
-31 0 16 5  5 10  6  0 \
-31 0 16 5  6  9  5  0 \
-31 0 16 5  7  8  4  0 \
-31 0 16 5  8  7  3  0 \
-31 0 16 5  9  6  2  0 \
-31 0 16 5 10  5  1  0 \
-31 0 16 5 11  4  0  0
+31 0 16 6  0 15  11 0 \
+31 0 16 6  1 14  10 0 \
+31 0 16 6  2 13  9  0 \
+31 0 16 6  3 12  8  0 \
+31 0 16 6  4 11  7  0 \
+31 0 16 6  5 10  6  0 \
+31 0 16 6  6  9  5  0 \
+31 0 16 6  7  8  4  0 \
+31 0 16 6  8  7  3  0 \
+31 0 16 6  9  6  2  0 \
+31 0 16 6 10  5  1  0 \
+31 0 16 6 11  4  0  0
 
 LGEM.lgems.y6.partner = x6
 LGEM.lgems.y6.type = y
@@ -306,16 +306,16 @@ LGEM.lgems.y6.detmap = \
 
 #crate slot mpd_id gem_id adc_id i2c pos invert
 LGEM.lgems.y6.chanmap = \
-31 0 14 5 0 4 9 1 \
-31 0 14 5 1 3 8 1 \
-31 0 14 5 2 2 7 1 \
-31 0 14 5 3 1 6 1 \
-31 0 14 5 4 0 5 1 \
-31 0 15 5 4 0 4 0 \
-31 0 15 5 3 1 3 0 \
-31 0 15 5 2 2 2 0 \
-31 0 15 5 1 3 1 0 \
-31 0 15 5 0 4 0 0
+31 0 14 6 0 4 9 1 \
+31 0 14 6 1 3 8 1 \
+31 0 14 6 2 2 7 1 \
+31 0 14 6 3 1 6 1 \
+31 0 14 6 4 0 5 1 \
+31 0 15 6 4 0 4 0 \
+31 0 15 6 3 1 3 0 \
+31 0 15 6 2 2 2 0 \
+31 0 15 6 1 3 1 0 \
+31 0 15 6 0 4 0 0
 
 
 
