@@ -7,10 +7,10 @@ L.theta   = 4.74
 R.theta   = -4.74
 LGEM.theta   = 4.74
 RGEM.theta   = -4.74
-L.pcentral= 0.95285
-R.pcentral= 0.95284
-LGEM.pcentral= 0.95285
-RGEM.pcentral= 0.95284
+L.pcentral= 0.9531710278
+R.pcentral= 0.9531710278
+LGEM.pcentral= 0.9531710278
+RGEM.pcentral= 0.9531710278
 
 # for tune A
 # L.vdc.config = prex
