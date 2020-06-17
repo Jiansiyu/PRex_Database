@@ -1,0 +1,73 @@
+### Notes:
+### REQUIRED variables for EACH plane
+## strip.pos = x # position of first strip with respect to origin of chamber
+## nstrip    = n # number of strips in this plane
+## d0        = x # distance (z) from magnet
+## type      = s # either x or y
+## partner   = plane_name # name of partner plane axis, i.e for plane x1 partner is y1
+## maxsamp   = n # maximum number of samples to look at per plane
+## The next two variables are needed by TreeSearch to determine if a
+## strip was hit or not by checking if sum_adc > pedestal_sigma*tmp_pedestal_rms
+## Not sure why it's called tmp, sounds like maybe it's only temporary?
+## pedestal_sigma = x #
+## tmp_pedestal_rms = x #
+## mapping = s # this is name of the channel map/data structure
+##             # it can be one of "mpd-apv" or "mpd-apv-nossp"
+## chanmap = ... # see channel map below for structure
+## detmap = .... # crate slot first_chan last_chan plane
+
+## Number of maximum samples on the plane
+## Allow these types of hits (i.e. which planes are allowed, defined as
+## plane0_allowed<<3*0|plane1_allowed<<3*1|plane_2_allowed<<3*2 etc...
+## where plane0 is x1+y1, plane1 is x2+y2, etc...
+#RGEM.rgems.module_order = 9 65 72 73
+RGEM.matrixelem = 
+  t 0 0 0 -1.007182e+00 -3.355711e-01 -4.038987e-02 -5.355920e-04
+  y 0 0 0 -6.641445e-03  1.373258e-03  2.201424e-03  7.172290e-03
+  p 0 0 0 -3.388563e-03 -4.328828e-03 -1.200457e-03  1.237351e-03
+  D 0 0 0 -1.584030e-03  6.868670e-02 -6.185880e-03
+  D 0 0 1  3.002850e-02 -4.918560e-02
+  D 0 0 2 -5.425230e-01
+  D 0 1 0 -7.149190e-03  7.422440e-03
+  D 0 2 0  4.950370e-01
+  D 1 0 0  6.925440e-02  2.562610e-01
+  D 1 0 1  6.148340e+00
+  D 1 0 2 -1.207080e+02
+  D 1 1 0 -1.949890e+00
+  D 1 1 1  3.339840e+02
+  D 2 0 0 -1.927460e+00
+  T 0 0 0 -5.234700e-03  1.251070e-03 -3.381470e-01
+  T 0 0 1  8.936090e-03 -1.560230e-01
+  T 0 0 2  3.050000e+00
+  T 0 1 0  3.952210e-02 -3.057120e-01
+  T 0 1 1  5.018510e+00
+  T 0 2 0  1.813300e+00
+  T 1 0 0 -2.190000e+00 -7.6903260e-01
+  T 1 0 1 -1.204220e+01
+  T 1 1 0  1.127750e+01
+  T 1 1 1  1.010140e+03
+  T 2 0 0 -9.081840e+00
+  P 0 0 0 -0.00070017	 -0.000771753	-0.0343996
+  P 0 0 1  0.621426	 -0.21324404
+  P 0 0 2  0.18577680 	  0
+  P 0 1 0  -0.54358934	  0.7024166
+  P 0 1 1  3.1912206	  -9.17941
+  P 0 2	0  -0.775124	  0
+  P 1 0	0  0.028322158	  0.033346576
+  P 1 0 1  4.540	  -1.4580106
+  P 1 1 1  260.827180	  0
+  P 2 0	0  5.6125748	  0
+  P 1 1	0  -3.964506  	  0
+  Y 0 0 0  2.893790e-03  7.158090e-03 -1.197140e-01 -1.206070e+00
+  Y 0 0 1  5.617910e-01  2.879890e+00  2.510240e+00
+  Y 0 0 2  1.974970e+00
+  Y 0 1 0  4.025430e-01 -8.419870e-02
+  Y 0 1 1  7.586170e-01  1.924580e+02
+  Y 0 2 0  1.646140e-01  1.863330e+01
+  Y 1 1 0 -1.485000e+01
+  Y 1 1 1  2.106410e+02
+  Y 2 0 0 -2.000940e+01 -4.080570e+01  3.797640e+02
+  Y 2 0 1 -1.385290e+03
+  Y 2 1 0  2.017820e+03
+  Y 1 0 1  2.205400e+01
+
