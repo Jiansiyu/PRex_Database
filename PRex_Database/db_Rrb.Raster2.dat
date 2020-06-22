@@ -1,7 +1,7 @@
 --------[ 2019-06-10 00:00:00 -0500 ]
 Rrb.Raster2.detmap =
-      20   7    2     2      1  250
-      20   7    3     3      1  250
+      20   7     2     2      1  250
+      20   7     3     3      1  250
 Rrb.Raster2.zpos = -7.345  -2.214  0
 Rrb.Raster2.freqs = 18.3  18.3
 Rrb.Raster2.slope_peds = 1633  1643
